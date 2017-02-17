@@ -1,0 +1,8 @@
+##YAML Template
+---
+default: -p firefox -p qa
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+poltergeist: BROWSER=poltergeist
+safari: BROWSER=safari
+qa: ENVIRONMENT_TYPE=qa
